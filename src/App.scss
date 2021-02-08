@@ -1,10 +1,12 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: 100%;
+  width: 100%;
+  background: -webkit-linear-gradient(
+    to right,
+    #36d1dc,
+    #5b86e5
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #36d1dc, #5b86e5);
 }
 
 @media (prefers-reduced-motion: no-preference) {
