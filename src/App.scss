@@ -1,12 +1,6 @@
 .App {
   height: 100%;
   width: 100%;
-  background: -webkit-linear-gradient(
-    to right,
-    #36d1dc,
-    #5b86e5
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #36d1dc, #5b86e5);
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -30,11 +24,3 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
