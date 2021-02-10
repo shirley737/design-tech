@@ -1,23 +1,46 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
 
 .intro {
   height: 400px;
-  background-color: cadetblue;
+  // background-color: #77b3bd;
+  background-color: rgb(200, 200, 200);
+  display: flex;
+  flex-direction: row;
 
-  .textbox {
-    margin-left: 60px;
-    padding-top: 40px;
+  .textbox1 {
+    margin-left: 100px;
+    padding-top: 70px;
     width: 500px;
 
-    .title{
+    .title1 {
       font-family: "Lora", serif;
-      font-size: 40px;
+      font-size: 30px;
       font-weight: 600;
       padding: 20px 0px 20px 0px;
     }
 
-    .answer{
-    font-size: 20px;
+    .answer1 {
+      font-size: 16px;
+      font-family: "Noto Sans", sans-serif;
+    }
+  }
+
+  .textbox2 {
+    margin-left: 100px;
+    padding-top: 70px;
+    width: 550px;
+
+    .title2 {
+      font-family: "Lora", serif;
+      font-size: 30px;
+      font-weight: 600;
+      padding: 20px 0px 20px 0px;
+    }
+
+    .answer2 {
+      font-size: 16px;
+      font-family: "Noto Sans", sans-serif;
     }
   }
 }

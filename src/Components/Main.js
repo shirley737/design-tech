@@ -10,7 +10,7 @@ function Main() {
         <div className="header">Technology</div>;
         <div className="header">Community</div>;
         <div className="sub-header">
-          A place for design technologist to connect and thrive.
+          A place for design technologists to connect and thrive.
         </div>
       </div>
       ;

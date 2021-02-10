@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+.join {
+  height: 150px;
+  background-color: white;
+  padding: 20px 0px 0px 20px;
+
+  .context {
+    margin-top: 10px;
+    margin-left: 80px;
+
+    .community {
+      margin-right: 100px;
+      font-family: "Lora", serif;
+      font-size: 22px;
+      font-weight: 600;
+    }
+
+    .contact {
+      margin: 10px 0px;
+
+      .email,
+      .slack {
+        font-family: "Noto Sans", sans-serif;
+        font-size: 15px;
+      }
+    }
+  }
+
+  .footer {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+}
+
+a {
+  color: grey;
+  font-family: helvetica;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+}
+
+a:visited {
+  color: purple;
+}

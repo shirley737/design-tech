@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.scss";
 import Main from "./Components/Main";
-import Content from "./Components/Content";
+import Contact from "./Components/Contact";
 import Nav from "./Components/Nav";
 import Intro from "./Components/Intro";
 
@@ -11,7 +11,7 @@ function App() {
       <Nav />
       <Main />
       <Intro />
-      <Content />
+      <Contact />
     </div>
   );
 }
