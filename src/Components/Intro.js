@@ -18,7 +18,7 @@ function Intro() {
       </div>
 
       <div className="textbox2">
-        <div className="title2"> What is Design Technology Club? </div>
+        <div className="title2"> What is the Design Technology Club? </div>
 
         <div className="answer2">
           

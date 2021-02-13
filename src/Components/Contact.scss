@@ -13,12 +13,12 @@
     .community {
       margin-right: 100px;
       font-family: "Lora", serif;
-      font-size: 22px;
+      font-size: 18px;
       font-weight: 600;
     }
 
     .contact {
-      margin: 10px 0px;
+      margin: 10px 0px 25px 0px;
 
       .email,
       .slack {
@@ -40,8 +40,9 @@
 
 a {
   color: grey;
-  font-family: helvetica;
+  font-family: "Noto Sans", sans-serif;
   text-decoration: none;
+  font-size: 15px;
 }
 
 a:hover {
@@ -52,6 +53,15 @@ a:active {
   color: black;
 }
 
-a:visited {
-  color: purple;
+@media only screen and (max-width: 600px) {
+  .join {
+    margin: auto;
+
+    .context {
+      margin-left: 10px;
+      .community {
+        margin-right: 0px;
+      }
+    }
+  }
 }
