@@ -21,15 +21,14 @@ function Intro() {
         <div className="title2"> What is the Design Technology Club? </div>
 
         <div className="answer2">
-          
-            Founded in March 2021, The Design Technology Club is a new community full
-            of amazing design technologists. Through networking, career and social
-            events, our goal is to connect design technologists across various
-            companies in California and to form a strong community for design and tech lovers.   
-            <br/>
-            <br/>
-            <b>Interested in joining?</b> Please see the contact infomation below.{" "}
-          
+          Founded in March 2021, The Design Technology Club is a new community
+          full of amazing design technologists. Through networking, career and
+          social events, our goal is to connect design technologists across
+          various companies and to form a strong community for design and tech
+          lovers.
+          <br />
+          <br />
+          <b>Interested in joining?</b> Please see the contact infomation below.{" "}
         </div>
       </div>
     </div>
