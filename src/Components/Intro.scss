@@ -3,9 +3,11 @@
 
 .intro {
   height: 400px;
+  padding: 0px 50px;
   background-color: rgb(200, 200, 200);
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   overflow: hidden;
 
   .textbox1 {
