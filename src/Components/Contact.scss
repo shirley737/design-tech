@@ -6,35 +6,40 @@
   background-color: white;
   padding: 20px 0px 0px 20px;
 
-  .context {
-    margin-top: 10px;
-    margin-left: 80px;
+  .join-context {
+    max-width: 1200px;
+    margin: auto;
 
-    .community {
-      margin-right: 100px;
-      font-family: "Lora", serif;
-      font-size: 18px;
-      font-weight: 600;
-    }
+    .text {
+      margin-top: 10px;
+      margin-left: 80px;
 
-    .contact {
-      margin: 10px 0px 25px 0px;
+      .community {
+        margin-right: 100px;
+        font-family: "Lora", serif;
+        font-size: 18px;
+        font-weight: 600;
+      }
 
-      .email,
-      .slack {
-        font-family: "Noto Sans", sans-serif;
-        font-size: 15px;
+      .contact {
+        margin: 10px 0px 25px 0px;
+
+        .email,
+        .slack {
+          font-family: "Noto Sans", sans-serif;
+          font-size: 15px;
+        }
       }
     }
-  }
 
-  .footer {
-    font-size: 12px;
-    text-align: center;
-    margin-bottom: 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    .footer {
+      font-size: 12px;
+      text-align: center;
+      margin-bottom: 0px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
   }
 }
 
