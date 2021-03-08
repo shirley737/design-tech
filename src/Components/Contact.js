@@ -21,7 +21,7 @@ function Contact() {
               <span className="slack"> Slack :</span>{" "}
               <span>
                 <a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSdoBp0UAVcarRlqP_BuBG_gJotcEPvUbckidYeRZh22wHZbNw/viewform?usp=sf_link"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLScppa_I-N4kMWg1AveJfHElKcGb9pDoL-lSqjEZFGqrhZM5VQ/viewform?usp=sf_link"
                   target="_blank"
                 >
                   Submit an interest form
