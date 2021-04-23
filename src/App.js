@@ -4,6 +4,7 @@ import Main from "./Components/Main";
 import Contact from "./Components/Contact";
 import Nav from "./Components/Nav";
 import Intro from "./Components/Intro";
+import News from "./Components/News";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Nav />
       <Main />
       <Intro />
+      <News />
       <Contact />
     </div>
   );
