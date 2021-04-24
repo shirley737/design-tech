@@ -31,7 +31,7 @@ function Newspage() {
 
 function App() {
   return (
-    <Router basename="design-tech.club">
+    <Router basename="https://designtech.onrender.com">
       <Route exact path="/" component={Homepage} />;
       <Route path="/news" component={Newspage} />;
     </Router>
