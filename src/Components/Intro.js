@@ -3,7 +3,12 @@ import "./Intro.scss";
 
 function Intro() {
   return (
-    <div className="intro">
+    <div
+      className="intro"
+      onClick={(e) => {
+        e.stopPropagation();
+      }}
+    >
       <div className="introContent">
         <div className="textbox1">
           <div className="title1"> Who are design technologists?</div>
@@ -33,6 +38,15 @@ function Intro() {
             below.{" "}
           </div>
         </div>
+      </div>
+
+      <div
+        className="newsbutton"
+        onClick={() => {
+          window.location = "./news";
+        }}
+      >
+        <span>Checkout our newsletter</span>
       </div>
     </div>
   );

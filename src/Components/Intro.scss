@@ -2,9 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
 
 .intro {
-  height: 400px;
+  height: 550px;
   background-color: rgb(200, 200, 200);
   overflow: hidden;
+  width: 100%;
 
   .introContent {
     max-width: 1300px;
@@ -48,6 +49,49 @@
         font-family: "Noto Sans", sans-serif;
       }
     }
+  }
+
+  .newsbutton {
+    text-align: center;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #0d98ba;
+    border: none;
+    color: #ffffff;
+    font-size: 24px;
+    padding: 15px;
+    width: 300px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 50%;
+    margin-top: 80px;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+
+  .newsbutton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .newsbutton span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .newsbutton:hover span {
+    padding-right: 25px;
+  }
+
+  .newsbutton:hover span:after {
+    opacity: 1;
+    right: 0;
   }
 }
 
