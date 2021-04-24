@@ -1,0 +1,182 @@
+{
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "April Newsletter"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "text": "*April 23, 2021*",
+          "type": "mrkdwn"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Articles & Essays*"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://eyeondesign.aiga.org/the-earth-is-the-best-mascot-for-earth-days-complicated-message/|The Earth Is Its Own Best Mascot for Earth Day’s Complicated Message> (April 22, 2021)"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://notfunatparties.substack.com/p/inside-a-viral-website|Inside a viral website> (March 31, 2021)"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://spotify.design/article/how-we-brought-2020-wrapped-to-life-in-the-mobile-app|Spotify Design: How we Brought 2020 Wrapped to Life in the Mobile App> (February, 2021)"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://medium.com/deepnote/building-a-design-system-at-a-startup-7b352d9875b3|Building a design system at a startup> (February 25, 2021)"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://netflixtechblog.com/artwork-personalization-c589f074ad76|Artwork Personalization at Netflix> (December 7, 2021)"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Tutorials*"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://advanced-graphql-workshop.netlify.app/|Formidable: How to build a GraphQL Client from scratch.>"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Code*"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://github.com/tailwindlabs/headlessui|headlessui: Completely unstyled, accessible UI components designed to integrate beautifully with Tailwind CSS>"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://github.com/pomber/code-surfer|Code Surfer>"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://github.com/dollarshaveclub/study|study: A simple, progressive, client/server AB testing library>"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://github.com/tauri-apps/tauri|tauri: Build smaller, faster, and more secure desktop applications with a web frontend>"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Inspiration*"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://eyeondesign.aiga.org/a-very-niche-very-logical-font-inspired-by-vintage-typewriters-python-script/|A Very Niche, Very Logical Font Inspired by Vintage Typewriters + Python Script> (April 20, 2021)"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://www.bankofengland.co.uk/news/2021/march/the-new-50-note-unveiled|Bank of England: The new £50 note unveiled> (March 25, 2021)"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Conferences*"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://www.ibm.com/events/think/|IBM Think 2021>"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://2021.uxlondon.com/|UX Fest 2021>"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://www.aiga.org/aiga/content/events-and-competitions/aiga-events/2021-aiga-design-conference/|2021 AIGA Design Conference>"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://www.clarityconf.com/|Clarity 2021>"
+      }
+    }
+  ]
+}
