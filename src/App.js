@@ -31,7 +31,7 @@ function Newspage() {
 
 function App() {
   return (
-    <Router basename="/pages/design-tech">
+    <Router basename="design-tech.club">
       <Route exact path="/" component={Homepage} />;
       <Route path="/news" component={Newspage} />;
     </Router>
