@@ -5,8 +5,11 @@ import Contact from "./Components/Contact";
 import Nav from "./Components/Nav";
 import Intro from "./Components/Intro";
 import News from "./Components/News";
+import { useHistory } from "react-router-dom";
 
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import userEvent from "@testing-library/user-event";
+import { useEffect } from "react";
 
 function Homepage() {
   return (
@@ -20,9 +23,21 @@ function Homepage() {
 }
 
 function Newspage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  const history = useHistory();
   return (
     <div className="news">
-      <Nav />
+      <div
+        className="return"
+        onClick={() => {
+          history.push("/");
+        }}
+      >
+        {"<"} Go Back
+      </div>
       <News />
       <Contact />
     </div>

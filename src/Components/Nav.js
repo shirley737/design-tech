@@ -11,14 +11,7 @@ function Nav() {
         e.stopPropagation();
       }}
     >
-      <div
-        className="nav-text"
-        onClick={() => {
-          history.push("/");
-        }}
-      >
-        Design.Tech
-      </div>
+      <div className="nav-text">Design.Tech</div>
     </div>
   );
 }

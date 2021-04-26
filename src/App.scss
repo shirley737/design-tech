@@ -23,3 +23,21 @@
 .App-link {
   color: #61dafb;
 }
+
+.return {
+  position: relative;
+  width: 100px;
+  padding: 15px 0px 15px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.return:hover {
+  background-color: #0d98ba;
+  color: white;
+  transition: 0.5s;
+}
