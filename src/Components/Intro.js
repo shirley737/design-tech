@@ -1,7 +1,9 @@
 import React from "react";
 import "./Intro.scss";
+import { useHistory } from "react-router-dom";
 
 function Intro() {
+  const history = useHistory();
   return (
     <div
       className="intro"
@@ -43,7 +45,7 @@ function Intro() {
       <div
         className="newsbutton"
         onClick={() => {
-          window.location = "./news";
+          history.push("./news");
         }}
       >
         <span>Checkout our newsletter</span>

@@ -1,7 +1,9 @@
 import React from "react";
 import "./Nav.scss";
+import { useHistory } from "react-router-dom";
 
 function Nav() {
+  const history = useHistory();
   return (
     <div
       className="nav"
@@ -12,7 +14,7 @@ function Nav() {
       <div
         className="nav-text"
         onClick={() => {
-          window.location = "/";
+          history.push("/");
         }}
       >
         Design.Tech
