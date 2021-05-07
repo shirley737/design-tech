@@ -2,8 +2,9 @@ import React from "react";
 import "./News.scss";
 import march from "../news/march-2021.json";
 import april from "../news/april-2021.json";
+import may from "../news/may-2021.json";
 
-const news = [april, march];
+const news = [may, april, march];
 
 function News() {
   return (
