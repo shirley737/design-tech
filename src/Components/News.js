@@ -3,8 +3,9 @@ import "./News.scss";
 import march from "../news/march-2021.json";
 import april from "../news/april-2021.json";
 import may from "../news/may-2021.json";
+import june from "../news/june-2021.json";
 
-const news = [may, april, march];
+const news = [june, may, april, march];
 
 function News() {
   return (

@@ -1,0 +1,182 @@
+{
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "June Newsletter"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "text": "*June 2021*",
+          "type": "mrkdwn"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Articles & Essays*"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://slack.engineering/role-management-at-slack/|Role Management at Slack> (May 24, 2021)"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://medium.com/pinterest-engineering/the-evolution-of-search-at-pinterest-c69e78ff2698|The evolution of search at Pinterest> (May 20, 2021)"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://medium.com/designing-atlassian/reducing-design-friction-why-a-dev-might-be-your-best-design-team-hire-448e983d3ca9|Reducing Design friction: Why a dev might be the best hire for your design team> (May 31, 2021)"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://blog.replit.com/vite|Why We Switched From Webpack To Vite (April 28, 2021)>"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://engineering.atspotify.com/2021/04/28/customization-vs-configuration-in-evolving-design-systems/|Customization vs. Configuration in Evolving Design Systems> (April 28, 2021)"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://medium.com/instacart-design/designing-digital-experiences-that-augment-the-analog-world-bd876bea7345|Designing Digital Experiences That Augment the Analog World> (March 16, 2021)"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Tutorials*"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://www.celinehh.com/seed-raise-how-to|How I raised a $11M seed as a first-time, female, solo founder for a biotech moonshot>"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Code*"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://github.com/nikitavoloboev/knowledge|Knowledge>"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://github.com/cjbarber/ToolsOfTheTrade|Tools of the Trade>"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://github.com/slidevjs/slidev|Slidev>"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Inspiration*"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://material.io/blog/announcing-material-you|Material You>"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Conferences*"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://frontendtestfest.com/|Front-end 2021 Test Fest (June 8, 2021)>"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://www.gatsbyjs.com/camp-summer-2021/|Gatsby Camp 2021 (June 8, 2021)>"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://2021.uxlondon.com/|UX Fest 2021 (June 2021)>"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://www.conversationaluserinterfaces.org/2021/|Conversational User Interfaces (July 27-29, 2021)>"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://www.clarityconf.com/|Clarity 2021 (October 27–29, 2021)>"
+      }
+    }
+  ]
+}
