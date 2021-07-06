@@ -1,0 +1,162 @@
+{
+    "blocks": [
+      {
+        "type": "header",
+        "text": {
+          "type": "plain_text",
+          "text": "July Newsletter"
+        }
+      },
+      {
+        "type": "context",
+        "elements": [
+          {
+            "text": "*July 2021*",
+            "type": "mrkdwn"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": "*Articles & Essays*"
+        }
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": "<https://research.protocol.ai/blog/2021/designing-a-dataflow-editor-with-typescript-and-react/|Designing a Dataflow Editor with TypeScript and React> (June 23, 2021)"
+        }
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": "<https://shopify.engineering/sharing-developer-context|Three Ways We Share Context at Shopify Engineering> (May 13, 2021)"
+        }
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": "<https://ux.shopify.com/the-journey-behind-creating-a-local-design-system-for-billing-ccd020312f50|The journey behind creating a local design system for Billing> (November 18, 2021)"
+        }
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": "<https://nicholasreese.com/lessons-from-building-a-static-site-generator/|Lessons From Building a Static Site Generator> (2020)"
+        }
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": "<https://medium.com/etsy-design/designed-for-growth-cdc2a01a8a8a|Designed for Growth> (September 2016)"
+        }
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": "*Tutorials*"
+        }
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": "<https://developer.apple.com/documentation/DocC/building-an-interactive-tutorial|Building an Interactive Tutorial>"
+        }
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": "*Code*"
+        }
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": "<https://github.com/vuejs/petite-vue|petite-vue>"
+        }
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": "<https://github.com/solidjs/solid|solid>"
+        }
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": "*Inspiration*"
+        }
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": "<https://developer.apple.com/documentation/xcode/documenting-a-swift-framework-or-package|DocC: Documentation Compiler for Swift Packages>"
+        }
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": "<https://solarsystem.nasa.gov/resources/682/space-tourism-posters/|Space Tourism Posters>"
+        }
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": "*Conferences*"
+        }
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": "<https://www.conversationaluserinterfaces.org/2021/|Conversational User Interfaces (July 27-29, 2021)>"
+        }
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": "<https://uxdx.com/emea/2021|UXDX EMEA (October 6-8, 2021)>"
+        }
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": "<https://www.clarityconf.com/|Clarity 2021 (October 27–29, 2021)>"
+        }
+      }
+    ]
+  }
+  
