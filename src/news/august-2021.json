@@ -1,0 +1,168 @@
+{
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "August Newsletter"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "text": "*August 2021*",
+          "type": "mrkdwn"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Articles & Essays*"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://www.digitalocean.com/blog/introduction-to-design-ops|An Introduction to Design Operations> (October 31, 2017)"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://airbnb.design/designops-airbnb/|DesignOps at Airbnb>"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://github.blog/2020-12-21-how-we-built-the-github-globe/|How we built the GitHub globe> (December 21, 2020)"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://stitcher.io/blog/opinion-driven-design|Opinion-driven Design> (June 23, 2021)"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://gamesfromwithin.com/data-oriented-design|Data-Oriented Design> (December 9, 2009)"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Tutorials*"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://google.github.io/eng-practices/review/reviewer/|How to do a code review>"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Code*"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://github.com/TeamPiped/Piped|Piped>"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://github.com/JetBrains/kotlin|kotlin>"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Inspiration*"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://help.apple.com/itc/musicstyleguide/en.lproj/static.html|Apple Music Style Guide>"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://beta.orbit.kiwi/|Orbit Design System>"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://www.swyx.io/new-mac-setup-2021/|My 2021 New Mac Setup> (July 5, 2021)"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Conferences*"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://www.conversationaluserinterfaces.org/2021/|Conversational User Interfaces (August 27-29, 2021)>"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://uxdx.com/emea/2021|UXDX EMEA (October 6-8, 2021)>"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://www.clarityconf.com/|Clarity 2021 (October 27–29, 2021)>"
+      }
+    }
+  ]
+}
