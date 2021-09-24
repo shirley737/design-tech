@@ -1,0 +1,175 @@
+{
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "September Newsletter"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "text": "*September 2021*",
+          "type": "mrkdwn"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Articles & Essays*"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://betterprogramming.pub/frontend-development-the-essentials-1c1290b43590|Front-end Development Essentials> (May 18, 2020)"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://www.linkedin.com/pulse/linkedin-top-voices-2020-design-laura-lorenzetti/|LinkedIn Top Voices 2020: Design> (November 17, 2020)"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://medium.com/javascript-scene/the-missing-introduction-to-react-62837cb2fd76|The Missing Introduction to React> (September 2, 2020)"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://www.cio.com/article/3606612/qanda-what-s-next-for-adobe-developers.html|Q&A: What’s Next for Adobe Developers?> (February 8, 2021)"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://www.workdesign.com/2019/08/virtual-reality-is-here-to-stay/&sa=D&source=editors&ust=1632448309385000&usg=AOvVaw2QXRmRigdyCcaTynnhHcjU|Virtual Reality is Here to Stay>"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Tutorials*"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://www.pagecloud.com/blog/how-to-integrate-motion-into-your-website-design|How to Integrate Motion into Your Website Design>"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Code*"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://github.com/iperov/DeepFaceLab|DeepFaceLab>"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://github.com/ageitgey/face_recognition|Face Recognition>"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Inspiration*"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<http://www.dejan.works/|Dejan’s Front-end Portfolio>"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://theinspirationgrid.com/never-ending-content-digital-art-by-ben-fearnley/|Never Ending Content: Digital Art by Ben Fearnley>"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://betterprogramming.pub/3-ways-to-find-your-inspiration-as-a-front-end-developer-d3a65fe51d8c|3 Ways to Find Your Inspiration as a Front-End Developer>"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Conferences*"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://voxmediaevents.com/code2021|Code Conference (September 27-29, 2021)>"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://uxdx.com/emea/2021|UXDX EMEA (October 6-8, 2021)>"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://aneventapart.com/event/fall-summit-2021|An Event Apart Fall Summit (October 11-23, 2021)>"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://aneventapart.com/event/fall-summit-2021|Adobe Max (October 26-28, 2021)>"
+      }
+    }
+  ]
+}
