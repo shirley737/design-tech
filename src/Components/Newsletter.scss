@@ -1,0 +1,66 @@
+.newsletter {
+  height: 250px;
+  background-color: 000;
+  overflow: hidden;
+  padding: 0px 100px;
+  margin: auto;
+  max-width: 1200px;
+
+  .news-title {
+    font-family: "Lora", serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 30px;
+  }
+
+  .news-split {
+    display: flex;
+    justify-content: space-between;
+
+    .news-text {
+      padding-top: 30px;
+      width: 50%;
+    }
+
+    .newsbutton {
+      margin: 30px 15px;
+      text-align: center;
+      display: inline-block;
+      border-radius: 4px;
+      background-color: #0d98ba;
+      border: none;
+      color: #ffffff;
+      font-size: 24px;
+      padding: 15px;
+      width: 300px;
+      height: 40px;
+      transition: all 0.5s;
+      cursor: pointer;
+    }
+
+    .newsbutton span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+
+    .newsbutton span:after {
+      content: "\00bb";
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+
+    .newsbutton:hover span {
+      padding-right: 25px;
+    }
+
+    .newsbutton:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+  }
+}

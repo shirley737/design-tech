@@ -1,0 +1,33 @@
+.people {
+  height: 620px;
+  // background-color: rgb(200, 200, 200);
+  background-color: 000;
+  overflow: hidden;
+  padding: 0px 100px;
+  margin: auto;
+  max-width: 1200px;
+
+  .people-title {
+    font-family: "Lora", serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 30px 0px;
+  }
+
+  .stack {
+    text-align: center;
+    margin: 20px 0px 60px 0px;
+    font-family: "Lora", serif;
+  }
+
+  .people-text {
+    width: 900px;
+  }
+
+  .people-subtitle {
+    font-family: "Lora", serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+}

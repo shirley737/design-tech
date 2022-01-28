@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+.intro {
+  height: 380px;
+  // background-color: rgb(200, 200, 200);
+  background-color: 000;
+  overflow: hidden;
+  padding: 0px 100px;
+  margin: auto;
+  max-width: 1200px;
+
+  .about-title {
+    font-family: "Lora", serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 30px;
+  }
+
+  .introContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .textbox {
+      width: 450px;
+
+      .title1,
+      .title2 {
+        font-family: "Lora", serif;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 20px 0px 20px 0px;
+      }
+
+      .answer1.answer2 {
+        font-size: 16px;
+        font-family: "Noto Sans", sans-serif;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .intro {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+
+    .textbox1 {
+      margin: auto auto;
+      width: 80%;
+      padding-top: 20px;
+
+      .title1 {
+        font-size: 30px;
+        font-weight: 600;
+        padding: 20px 0px 20px 0px;
+      }
+
+      .answer1 {
+        font-size: 16px;
+        font-family: "Noto Sans", sans-serif;
+      }
+    }
+
+    .textbox2 {
+      margin: auto auto;
+      width: 80%;
+      padding-top: 0px;
+      padding-bottom: 20px;
+
+      .title2 {
+        font-size: 30px;
+        font-weight: 600;
+        padding: 20px 0px 20px 0px;
+      }
+
+      .answer2 {
+        font-size: 16px;
+        font-family: "Noto Sans", sans-serif;
+      }
+    }
+  }
+}

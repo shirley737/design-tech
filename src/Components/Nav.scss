@@ -1,14 +1,31 @@
-.nav {
-  position: relative;
-  background-color: white;
-  z-index: 2;
-  font-size: 20px;
-  font-weight: 600px;
-  cursor: pointer;
+.header {
+  overflow: hidden;
+  max-width: 1200px;
+  margin: auto;
 
-  .nav-text {
-    cursor: pointer;
-    width: 150px;
-    padding: 30px 0px 30px 20px;
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    z-index: 2;
+    padding: 20px 0px;
+
+    .nav-lefttext {
+      cursor: pointer;
+      font-size: 18px;
+      font-weight: 600;
+      width: 150px;
+    }
+
+    .nav-righttext {
+      cursor: pointer;
+      font-size: 18px;
+      width: 150px;
+      margin-left: 20px;
+    }
+
+    a {
+      text-decoration: none;
+    }
   }
 }
