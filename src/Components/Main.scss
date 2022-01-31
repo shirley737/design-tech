@@ -2,26 +2,32 @@
 
 .container {
   align-content: center;
-  height: 600px;
-  background-image: url("../images/image.jpg");
+  height: 90vh;
+  background-image: url("../images/option3.jpg");
   background-size: cover;
   background-blend-mode: saturation;
+  animation-duration: 1s;
+
+  .typewritter {
+    display: block;
+    font-size: 55px;
+    font-family: "Lora", serif;
+    color: antiquewhite;
+    font-weight: bold;
+  }
 
   .content {
     position: absolute;
     top: 410px;
+    text-align: left;
     left: 50%;
     transform: translateX(-50%) translateY(-60%);
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.5);
 
     .header {
-      font-size: 50px;
-      display: block;
-      text-align: center;
+      font-size: 30px;
       font-family: "Lora", serif;
       color: antiquewhite;
-      font-weight: bold;
     }
 
     .sub-header {
