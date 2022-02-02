@@ -1,5 +1,5 @@
 .people {
-  height: 620px;
+  height: 780px;
   // background-color: rgb(200, 200, 200);
   background-color: 000;
   overflow: hidden;
@@ -20,13 +20,26 @@
     font-family: "Lora", serif;
   }
 
-  .people-text {
-    width: 900px;
+  .member-align {
+    display: flex;
+    justify-content: space-between;
+    .people-text {
+      width: 500px;
+      font-size: 18px;
+      padding-top: 10px;
+      font-family: "Noto Sans", sans-serif;
+    }
+
+    .member-graph {
+      width: 550px;
+      height: auto;
+      margin-top: -50px;
+    }
   }
 
   .people-subtitle {
     font-family: "Lora", serif;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 500;
     margin-bottom: 20px;
   }

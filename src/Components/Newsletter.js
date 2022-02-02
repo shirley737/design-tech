@@ -11,7 +11,7 @@ function Newsletter() {
         e.stopPropagation();
       }}
     >
-      <div className="news-title">Newsletter</div>
+      <div className="news-title">✨ Activities</div>
       <div className="news-split">
         <div className="news-text">
           Every month, we send out a design tech newsletter to community

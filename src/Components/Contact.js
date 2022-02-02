@@ -6,7 +6,7 @@ function Contact() {
     <div className="join">
       <div className="join-context">
         <div className="text">
-          <div className="community">Contact</div>
+          <div className="community">📧 Contact</div>
           <div className="contact">
             <div>
               <span className="email"> Email :</span>
