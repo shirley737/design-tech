@@ -1,0 +1,144 @@
+{
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "November Newsletter"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "text": "*November 2021*",
+          "type": "mrkdwn"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Articles & Essays*"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://codeascraft.com/2021/11/08/etsys-journey-to-typescript/|Etsy's Journey to TypeScript> (November 8, 2021)"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://blog.logrocket.com/typescript-vs-jsdoc-javascript/|TypeScript vs. JSDoc JavaScript for static type checking> (October 19, 2021)"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://developer.chrome.com/blog/migrating-to-typescript/|Migrating DevTools to TypeScript> (April 8, 2021)"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://colinhacks.com/essays/zod|Designing the perfect Typescript schema validation library> (March 8th, 2020)"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<http://neugierig.org/software/blog/2018/09/typescript-at-google.html|TypeScript at Google> (September 1, 2018)"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Tutorials*"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://www.metachris.com/2021/04/starting-a-typescript-project-in-2021/|Starting a TypeScript Project in 2021> (April 15, 2021)"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Code*"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://github.com/bcherny/json-schema-to-typescript|json-schema-to-typescript>"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://github.com/microsoft/vscode|vscode>"
+      }
+    },
+    {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": "<https://github.com/typeorm/typeorm|typeorm>"
+        }
+      },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Inspiration*"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://www.typescriptlang.org/dt/search|TypeSearch>"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://basarat.gitbook.io/typescript/|TypeScript Deep Dive>"
+      }
+    },
+    {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": "<http://typedoc.org/|TypeDoc>"
+        }
+      }
+  ]
+}

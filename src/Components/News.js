@@ -8,8 +8,11 @@ import july from "../news/july-2021.json";
 import august from "../news/august-2021.json";
 import september from "../news/september-2021.json";
 import october from "../news/october-2021.json";
+import november from "../news/november-2021.json";
+import february from "../news/february-2022.json";
 
-const news = [october, september, august, july, june, may, april, march];
+
+const news = [february, november, october, september, august, july, june, may, april, march];
 
 function News() {
   return (
