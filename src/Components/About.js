@@ -31,9 +31,14 @@ function About() {
             to make meaningful connections across various companies and to form
             a strong community for design and tech lovers. The Design Tech Club
             is almost one years old!
-            <div className="answer"></div>
-            <b>Interested in joining?</b> Please see the contact infomation
-            below.{" "}
+            <div className="answer">
+              <span>Interested?</span>{" "}
+              <span className="linktext">
+                <a href="https://forms.gle/Vpjq9CLsCN3vJA2P8" target="_blank">
+                  Don't hesitate to join us now!
+                </a>
+              </span>
+            </div>
           </div>
         </div>
         <div className="graph">

@@ -1,5 +1,5 @@
 .newsletter {
-  height: 300px;
+  height: 650px;
   background-color: 000;
   overflow: hidden;
   padding: 0px 100px;
@@ -22,6 +22,13 @@
       width: 700px;
       font-size: 18px;
       font-family: "Noto Sans", sans-serif;
+
+      .news-title {
+        font-family: "Lora", serif;
+        font-size: 22px;
+        font-weight: 500;
+        margin-bottom: 20px;
+      }
     }
 
     .newsbutton {
@@ -30,11 +37,13 @@
       display: inline-block;
       border-radius: 4px;
       background-color: #0d98ba;
+      margin-top: 110px;
       border: none;
       color: #ffffff;
       font-size: 24px;
       padding: 15px;
       width: 300px;
+      height: 40px;
       transition: all 0.5s;
       cursor: pointer;
     }
