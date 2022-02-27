@@ -78,19 +78,24 @@ function People() {
         </Stack>
       </div>
 
-      <div className="people-subtitle">Meet the Members</div>
+      <div className="people-subtitle">Meet our Members</div>
       <div className="member-align">
         <div>
           {" "}
           <div className="people-text">
-            From the past nine months, the design tech club warmly welcomed over
-            60 club members from both startups and influential tech companies
-            such as Google, LinkedIn and Netflix. We communicate through
-            newsletters, slacks and virtual meetups.
+            Over the past year, the design tech club warmly welcomed 70 club
+            members from both startups and influential tech companies such as
+            Google, LinkedIn and Netflix. We communicate through newsletters,
+            slack messages and virtual meetups.
           </div>
           <div className="people-text">
-            If you want to join this design + tech hybrid community or are
-            interested in knowing current members, please reach out to us!
+            If you want to join this community or are interested in meeting
+            current members, please{" "}
+            <span className="linktext">
+              <a href="mailto: design.technologists@gmail.com" target="_blank">
+                reach out to us!
+              </a>
+            </span>
           </div>
         </div>
         <div>

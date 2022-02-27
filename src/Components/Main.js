@@ -1,6 +1,5 @@
 import React from "react";
 import "./Main.scss";
-import image from "../images/image.jpg";
 import Typewriter from "typewriter-effect";
 
 function Main() {

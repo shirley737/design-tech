@@ -19,10 +19,10 @@ function About() {
             {" "}
             Design technologists (also known as UX engineers, UI engineers,
             prototypers, and more) live at the intersection between designers
-            and developers. They are people with both front-end programming and
-            crafting skills. Specifically, they build prototypes for user
-            testings, create internal tools to boost efficiency, and explore
-            advanced technologies by building proofs-of-concept.{" "}
+            and developers, with both programming and crafting skills.
+            Specifically, they build prototypes for user testings, create
+            internal tools to boost efficiency, and explore advanced
+            technologies by building proofs-of-concept.{" "}
           </div>
           <div className="answer">
             Founded in March 2021, The Design Tech Club is a professional
@@ -30,12 +30,12 @@ function About() {
             networking, career and social events, our goal is to enable people
             to make meaningful connections across various companies and to form
             a strong community for design and tech lovers. The Design Tech Club
-            is almost one years old!
+            will be one year old in March 2022!
             <div className="answer">
-              <span>Interested?</span>{" "}
+              <span>Are you a design tech enthusiast?</span>{" "}
               <span className="linktext">
                 <a href="https://forms.gle/Vpjq9CLsCN3vJA2P8" target="_blank">
-                  Don't hesitate to join us now!
+                  Don't hesitate to join us now!!
                 </a>
               </span>
             </div>

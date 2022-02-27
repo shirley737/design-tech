@@ -3,7 +3,6 @@ import "./App.scss";
 import "./Components/Nav.scss";
 import Main from "./Components/Main";
 import Contact from "./Components/Contact";
-// import Nav from "./Components/Nav";
 import About from "./Components/About";
 import News from "./Components/News";
 import People from "./Components/People";
@@ -11,7 +10,6 @@ import Newsletter from "./Components/Newsletter";
 import { useHistory } from "react-router-dom";
 
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import userEvent from "@testing-library/user-event";
 import { useEffect } from "react";
 
 function Homepage() {
@@ -29,11 +27,18 @@ function Homepage() {
             <a className="nav-righttext" href="#people">
               People
             </a>
-            <a className="nav-righttext" href="#newsletter">
+            <a className="nav-righttext" href="/news">
               Newsletters
             </a>
             <a className="nav-righttext" href="#contact">
               Contact
+            </a>
+            <a
+              className="joinlink nav-righttext"
+              href="https://forms.gle/Vpjq9CLsCN3vJA2P8"
+              target="_blank"
+            >
+              Join us
             </a>
           </div>
         </div>

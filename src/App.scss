@@ -45,3 +45,14 @@ html {
   color: white;
   transition: 0.5s;
 }
+
+.joinlink {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+
+  .joinlink:hover {
+    text-decoration: underline;
+  }
+}

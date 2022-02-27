@@ -1,5 +1,5 @@
 .newsletter {
-  height: 650px;
+  height: 750px;
   background-color: 000;
   overflow: hidden;
   padding: 0px 100px;
@@ -45,6 +45,7 @@
       width: 300px;
       height: 40px;
       transition: all 0.5s;
+      margin-left: 50px;
       cursor: pointer;
     }
 
@@ -71,6 +72,14 @@
     .newsbutton:hover span:after {
       opacity: 1;
       right: 0;
+    }
+
+    .meetup {
+      align-items: center;
+      width: 400px;
+      margin-left: 50px;
+      margin-top: 150px;
+      display: inline-block;
     }
   }
 }
