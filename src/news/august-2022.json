@@ -1,0 +1,172 @@
+{
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "August Newsletter"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "text": "*August 2022*",
+          "type": "mrkdwn"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Articles & Essays*"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://drabstract.medium.com/innovations-in-code-df4f306036c8|Innovations in Code>"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://venturebeat.com/2022/02/05/low-code-no-code-could-reshape-business-innovation/|Low-code/no-code Could Reshape Business Innovation>"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://www.smashingmagazine.com/2021/06/design-code-modern-approach-development-challenges/|Designing With Code: A Modern Approach To Design (Development Challenges)>"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://medium.com/codomo/what-is-design-innovation-why-you-need-to-know-it-b8d850503b3a|What Is Design Innovation & Why You Need To Know It>"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://medium.com/ma-communication-design/what-is-design-entrepreneurship-7d3f08ea33eb|What is Design Entrepreneurship?>"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Tutorials*"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://www.udemy.com/course/entrepreneurship-the-making-of-a-great-entrepreneur/|Entrepreneurship: The Making of a Great Entrepreneur>"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Code*"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://processing.org/|Processing>"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://emberjs.com/|Ember>"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<http://backbonejs.org/|Backbone.js>"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Inspiration*"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://caddetailsblog.com/post/a-perfect-combo-coding-and-architecture|A Perfect Combo! Coding and Architecture>"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://www.editorx.com/shaping-design/article/creative-coding|10 Innovative Creative Coding Examples That Are Redefining programming>"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Conferences*"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://rosenfeldmedia.com/designopssummit2022/|The DesignOps Summit>"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://ghc.anitab.org/|Grace Hopper Celebration>"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://aneventapart.com/event/denver-2022|An Event Apart Denver>"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<https://www.adobe.com/max.html|Adobe Max>"
+      }
+    }
+  ]
+}
