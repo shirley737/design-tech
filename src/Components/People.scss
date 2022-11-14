@@ -1,5 +1,5 @@
 .people {
-  height: 780px;
+  height: 720px;
   background-color: 000;
   overflow: hidden;
   padding: 0px 100px;
@@ -24,16 +24,19 @@
     justify-content: space-between;
 
     .people-text {
-      width: 500px;
-      font-size: 18px;
+      color: #393a3d;
+      width: 450px;
+      font-size: 16px;
       padding-top: 10px;
       font-family: "Noto Sans", sans-serif;
+      line-height: 1.6;
     }
 
     .member-graph {
-      width: 550px;
+      width: 500px;
       height: auto;
       margin-top: -50px;
+      align-items: right;
     }
   }
 
@@ -46,7 +49,7 @@
 
   a {
     font-family: "Noto Sans", sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     color: #000;
   }

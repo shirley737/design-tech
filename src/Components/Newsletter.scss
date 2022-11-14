@@ -1,5 +1,5 @@
 .newsletter {
-  height: 750px;
+  height: 840px;
   background-color: 000;
   overflow: hidden;
   padding: 0px 100px;
@@ -20,8 +20,10 @@
     .news-text {
       padding-top: 30px;
       width: 700px;
-      font-size: 18px;
+      font-size: 16px;
+      line-height: 1.6;
       font-family: "Noto Sans", sans-serif;
+      color: #393a3d;
 
       .news-title {
         font-family: "Lora", serif;
