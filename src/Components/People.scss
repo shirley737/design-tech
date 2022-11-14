@@ -1,11 +1,10 @@
 .people {
   height: 780px;
-  // background-color: rgb(200, 200, 200);
   background-color: 000;
   overflow: hidden;
   padding: 0px 100px;
   margin: auto;
-  max-width: 1200px;
+  max-width: 1000px;
 
   .people-title {
     font-family: "Lora", serif;
@@ -23,6 +22,7 @@
   .member-align {
     display: flex;
     justify-content: space-between;
+
     .people-text {
       width: 500px;
       font-size: 18px;

@@ -90,7 +90,7 @@ function App() {
   return (
     <Router basename="/">
       <Route exact path="/" component={Homepage} />;
-      <Route path="/news" component={Newspage} />;
+      <Route exact path="/news" component={Newspage} />;
     </Router>
   );
 }

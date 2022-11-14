@@ -2,12 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
 
 .intro {
-  height: 600px;
+  height: 550px;
   background-color: 000;
   overflow: hidden;
   padding: 0px 100px;
   margin: auto;
-  max-width: 1200px;
+  max-width: 1000px;
 
   .about-title {
     font-family: "Lora", serif;
@@ -22,17 +22,17 @@
     justify-content: space-between;
 
     .textbox {
-      width: 700px;
+      width: 600px;
+      font-size: 16px;
+      font-family: "Noto Sans", sans-serif;
 
       .answer {
-        font-size: 18px;
         padding-top: 20px;
-        font-family: "Noto Sans", sans-serif;
+        line-height: 1.6;
+        color: #393a3d;
       }
 
       a {
-        font-family: "Noto Sans", sans-serif;
-        font-size: 18px;
         font-weight: 600;
         color: #000;
       }
