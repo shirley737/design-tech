@@ -27,9 +27,9 @@ function Homepage() {
             <a className="nav-righttext" href="#people">
               People
             </a>
-            {/* <link className="nav-righttext" href="/news">
+            <a className="nav-righttext" href="/news">
               Newsletters
-            </link> */}
+            </a>
             <a className="nav-righttext" href="#contact">
               Contact
             </a>
