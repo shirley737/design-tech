@@ -1,6 +1,8 @@
 import React from "react";
 import "./Main.scss";
+import Button from "../utilities/Button/Button";
 import Typewriter from "typewriter-effect";
+
 
 function Main() {
   return (
@@ -15,9 +17,6 @@ function Main() {
               onInit={(typewriter) => {
                 typewriter
                   .typeString("Designers")
-                  .callFunction(() => {
-                    console.log("designer");
-                  })
                   .pauseFor(2000)
                   .deleteAll()
                   .callFunction(() => {
@@ -42,7 +41,9 @@ function Main() {
         </div>
         <br />
         <div className="header">Who Bring Creative Ideas to Life.</div>
+        <div className="join-button"><Button content="Join Now" url="https://docs.google.com/forms/d/e/1FAIpQLScppa_I-N4kMWg1AveJfHElKcGb9pDoL-lSqjEZFGqrhZM5VQ/viewform" /></div>
       </div>
+
     </div>
   );
 }

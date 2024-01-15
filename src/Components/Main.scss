@@ -11,7 +11,7 @@
 
   .content {
     position: absolute;
-    top: 320px;
+    top: 360px;
     text-align: left;
     left: 50%;
     transform: translateX(-50%) translateY(-60%);
@@ -30,5 +30,9 @@
       color: antiquewhite;
       font-weight: bold;
     }
+  }
+
+  .join-button {
+    margin-top: 80px;
   }
 }

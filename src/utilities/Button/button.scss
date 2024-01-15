@@ -1,0 +1,45 @@
+@import "../styles.scss";
+
+.main-button {
+    text-align: center;
+    display: inline-block;
+    border-radius: 8px;
+    background-color: $blue1;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 12px 48px;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-family: "Noto Sans", sans-serif;
+    width: 120px;
+}
+
+.main-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.main-button span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.main-button:hover span {
+    padding-right: 25px;
+}
+
+.main-button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.main-button:hover {
+    background-color: #048aab;
+}

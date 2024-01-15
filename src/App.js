@@ -8,14 +8,15 @@ import News from "./Components/News";
 import People from "./Components/People";
 import Newsletter from "./Components/Newsletter";
 import { useHistory } from "react-router-dom";
-
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { useEffect } from "react";
+import Divider from "./utilities/Divider/Divider";
 
 function Homepage() {
+
   function Nav() {
     return (
-      <div className="header">
+      <div className="nav-wrapper">
         <div
           className="nav"
           onClick={(e) => {
@@ -33,13 +34,13 @@ function Homepage() {
             <a className="nav-righttext" href="#contact">
               Contact
             </a>
-            <a
+            {/* <a
               className="joinlink nav-righttext"
               href="https://forms.gle/Vpjq9CLsCN3vJA2P8"
               target="_blank"
             >
               Join us
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
@@ -51,12 +52,15 @@ function Homepage() {
       <Nav />
       <Main />
       <About />
+      <Divider />
       <div id="people">
         <People />
       </div>
+      <Divider />
       <div id="newsletter">
         <Newsletter />
       </div>
+      <Divider />
       <div id="contact">
         <Contact />
       </div>

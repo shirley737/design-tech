@@ -3,7 +3,6 @@
 
 .join {
   height: 200px;
-  background-color: white;
   overflow: hidden;
   padding: 0px 100px;
   margin: auto;
@@ -40,21 +39,23 @@
       justify-content: flex-end;
     }
   }
-}
 
-a {
-  color: grey;
-  font-family: "Noto Sans", sans-serif;
-  text-decoration: none;
-  font-size: 15px;
-}
 
-a:hover {
-  text-decoration: underline;
-}
+  a {
+    color: grey;
+    font-family: "Noto Sans", sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+  }
 
-a:active {
-  color: black;
+  a:hover {
+    text-decoration: underline;
+  }
+
+  a:active {
+    color: black;
+  }
+
 }
 
 @media only screen and (max-width: 600px) {
