@@ -12,28 +12,27 @@
 
   .stack {
     text-align: center;
-    margin: 20px 0px 60px 0px;
+    margin: 30px auto 60px auto;
     font-family: "Lora", serif;
+    display: flex;
+    justify-content: center;
+
+    .action {
+      margin: auto;
+    }
+
   }
 
   .member-align {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
 
     .people-text {
       color: #393a3d;
-      width: 450px;
       font-size: 16px;
-      padding-top: 10px;
+      margin-top: 20px;
       font-family: "Noto Sans", sans-serif;
       line-height: 1.6;
-    }
-
-    .member-graph {
-      width: 500px;
-      height: auto;
-      margin-top: -50px;
-      align-items: right;
     }
   }
 
@@ -41,7 +40,6 @@
     font-family: "Lora", serif;
     font-size: 22px;
     font-weight: 500;
-    margin-top: 30px;
   }
 
   a {

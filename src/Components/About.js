@@ -1,10 +1,8 @@
 import React from "react";
 import "./About.scss";
-import { useHistory } from "react-router-dom";
 import graph from "../images/dt.png";
 
 function About() {
-  const history = useHistory();
   return (
     <div
       className="intro"
@@ -12,7 +10,7 @@ function About() {
         e.stopPropagation();
       }}
     >
-      <div className="about-title">👋 Welcome! </div>
+      <div className="about-title">👋 Welcome, Design Technologists! </div>
       <div className="introContent">
         <div className="textbox">
           <div className="answer">

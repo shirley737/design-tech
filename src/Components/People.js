@@ -7,6 +7,12 @@ import eric from "../images/eric.jfif";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import company from "../images/company.png";
+import Button from '@mui/material/Button';
+import CardActions from '@mui/material/CardActions';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import EmailIcon from '@mui/icons-material/Email';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import { IconButton } from "@mui/material";
 
 function People() {
   return (
@@ -20,20 +26,17 @@ function People() {
       <div className="people-title">🧑‍💻 People</div>
       <div className="people-subtitle">Meet our Leaders</div>
       <div className="stack">
-        <Stack direction="row" spacing={5}>
-          <Card sx={{ width: 200 }}>
+        <Stack direction="row" spacing={8}>
+          <Card sx={{ width: 240, height: 320, borderRadius: 2 }}>
             <CardContent>
-              <div className="tryCenter">
-                <Avatar
-                  alt="Shirley"
-                  src={shirley}
-                  sx={{ width: 120, height: 120, margin: "auto" }}
-                />
-              </div>
-
+              <Avatar
+                alt="Shirley"
+                src={shirley}
+                sx={{ width: 120, height: 120, margin: "16px auto" }}
+              />
               <div
                 classsName="card-title"
-                style={{ marginTop: "10px", fontSize: "20px" }}
+                style={{ marginTop: "36px", fontSize: "20px" }}
               >
                 Shirley Guo
               </div>
@@ -42,22 +45,40 @@ function People() {
                 style={{
                   fontFamily: "Noto Sans, sans-serif",
                   fontSize: "14px",
+                  marginTop: "4px"
                 }}
               >
                 Design Technologist
               </div>
             </CardContent>
+            <CardActions>
+              <div className="action" >
+                <IconButton size="small" onClick={() => {
+                  window.open("https://www.linkedin.com/in/diashirley/", "_blank");
+                }}>
+                  <LinkedInIcon />
+                </IconButton>
+                <IconButton size="small">
+                  <EmailIcon />
+                </IconButton>
+                <IconButton size="small" onClick={() => {
+                  window.open("https://github.com/shirley737", "_blank");
+                }}>
+                  <GitHubIcon />
+                </IconButton>
+              </div>
+            </CardActions>
           </Card>
-          <Card sx={{ width: 200 }}>
+          <Card sx={{ width: 240, height: 320, borderRadius: 2 }}>
             <CardContent>
               <Avatar
                 alt="Eric"
                 src={eric}
-                sx={{ width: 120, height: 120, margin: "auto" }}
+                sx={{ width: 120, height: 120, margin: "16px auto" }}
               />
               <div
                 classsName="card-title"
-                style={{ marginTop: "10px", fontSize: "20px" }}
+                style={{ marginTop: "36px", fontSize: "20px" }}
               >
                 Eric Liu
               </div>
@@ -66,11 +87,28 @@ function People() {
                 style={{
                   fontFamily: "Noto Sans, sans-serif",
                   fontSize: "14px",
+                  marginTop: "4px"
                 }}
               >
                 UX Engineer
               </div>
             </CardContent>
+            <CardActions>
+              <div className="action">
+                <IconButton size="small" onClick={() => {
+                  window.open("https://www.linkedin.com/in/erc/", "_blank");
+                }}>
+                  <LinkedInIcon />
+                </IconButton>
+                <IconButton size="small">
+                  <EmailIcon />
+                </IconButton>
+                <IconButton size="small" onClick={() => {
+                  window.open("https://github.com/metonym", "_blank");
+                }}>
+                  <GitHubIcon /></IconButton>
+              </div>
+            </CardActions>
           </Card>
         </Stack>
       </div>
@@ -78,7 +116,6 @@ function People() {
       <div className="people-subtitle">Meet our Members</div>
       <div className="member-align">
         <div>
-          {" "}
           <div className="people-text">
             Over the past year, the design tech club warmly welcomed 70 club
             members from both startups and influential tech companies such as
@@ -94,9 +131,6 @@ function People() {
               </a>
             </span>
           </div>
-        </div>
-        <div>
-          <img className="member-graph" src={company} />
         </div>
       </div>
     </div>
