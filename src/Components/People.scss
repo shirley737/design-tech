@@ -1,3 +1,5 @@
+@import "../utilities/styles.scss";
+
 .people {
   overflow: hidden;
   margin: 60px auto 60px auto;
@@ -28,7 +30,7 @@
     justify-content: flex-start;
 
     .people-text {
-      color: #393a3d;
+      color: $grey3;
       font-size: 16px;
       margin-top: 20px;
       font-family: "Noto Sans", sans-serif;
@@ -46,6 +48,6 @@
     font-family: "Noto Sans", sans-serif;
     font-size: 16px;
     font-weight: 600;
-    color: #000;
+    color: #393a3d;
   }
 }

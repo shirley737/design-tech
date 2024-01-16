@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+@import "../utilities/styles.scss";
 
 .intro {
   overflow: hidden;
@@ -27,12 +28,12 @@
       .answer {
         padding-top: 20px;
         line-height: 1.6;
-        color: #393a3d;
+        color: $grey3;
       }
 
       a {
         font-weight: 600;
-        color: #000;
+        color: #393a3d;
       }
     }
 

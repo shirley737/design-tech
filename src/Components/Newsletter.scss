@@ -18,14 +18,14 @@
     font-family: "Noto Sans", sans-serif;
     display: flex;
     justify-content: space-between;
+  }
 
-    .subtitle {
-      margin: 30px 0px;
-      font-family: "Lora", serif;
-      font-size: 22px;
-      font-weight: 500;
-      color: #393a3d;
-    }
+  .note {
+    color: $grey1;
+    margin-top: 28px;
+    text-align: center;
+
+
   }
 
   .meetup {

@@ -24,6 +24,7 @@ function Newsletter() {
       }}
     >
       <div className="news-title">✨ Activities</div>
+      <div className="note"> Note: We currently pause the newletter and meetups due to organizer's availability conflict, but all activities will resume soon.</div>
       <div className="news-card">
         <Activitycard vector={email} title="Newsletter" description={description1} action="Previous Newsletter" method={getNewsLetter} />
         <Activitycard vector={chat} title="Meetups" description={description2} />
