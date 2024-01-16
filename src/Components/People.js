@@ -6,8 +6,6 @@ import shirley from "../images/shirley.jfif";
 import eric from "../images/eric.jfif";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
-import company from "../images/company.png";
-import Button from '@mui/material/Button';
 import CardActions from '@mui/material/CardActions';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
@@ -58,7 +56,9 @@ function People() {
                 }}>
                   <LinkedInIcon />
                 </IconButton>
-                <IconButton size="small">
+                <IconButton size="small" onClick={() => {
+                  window.open("mailto: 737shirley@gmail.com", "_blank");
+                }}>
                   <EmailIcon />
                 </IconButton>
                 <IconButton size="small" onClick={() => {
@@ -100,7 +100,9 @@ function People() {
                 }}>
                   <LinkedInIcon />
                 </IconButton>
-                <IconButton size="small">
+                <IconButton size="small" onClick={() => {
+                  window.open("mailto: ericyl.us@gmail.com", "_blank");
+                }} >
                   <EmailIcon />
                 </IconButton>
                 <IconButton size="small" onClick={() => {

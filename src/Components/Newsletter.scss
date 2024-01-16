@@ -11,32 +11,28 @@
     font-weight: 600;
   }
 
-  .news-split {
+  .news-card {
+    padding-top: 30px;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: "Noto Sans", sans-serif;
     display: flex;
     justify-content: space-between;
 
-    .news-text {
-      padding-top: 30px;
-      width: 700px;
-      font-size: 16px;
-      line-height: 1.6;
-      font-family: "Noto Sans", sans-serif;
-
-      .subtitle {
-        margin: 30px 0px;
-        font-family: "Lora", serif;
-        font-size: 22px;
-        font-weight: 500;
-        color: #393a3d;
-      }
+    .subtitle {
+      margin: 30px 0px;
+      font-family: "Lora", serif;
+      font-size: 22px;
+      font-weight: 500;
+      color: #393a3d;
     }
+  }
 
-    .meetup {
-      align-items: center;
-      width: 400px;
-      margin-left: 50px;
-      margin-top: 150px;
-      display: inline-block;
-    }
+  .meetup {
+    align-items: center;
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 150px;
+    display: inline-block;
   }
 }

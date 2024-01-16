@@ -1,0 +1,25 @@
+.activity-card {
+    max-width: 300px;
+    text-align: center;
+    margin: 28px 28px 08px 28px;
+
+    .image {
+        max-width: 120px;
+    }
+
+    .title {
+        margin: 40px 0px;
+        font-family: "Lora", serif;
+        font-size: 22px;
+        font-weight: 500;
+        color: #393a3d;
+    }
+
+    .description {
+        font-size: 14px;
+        line-height: 1.6;
+        font-family: "Noto Sans", sans-serif;
+        margin-bottom: 28px;
+    }
+
+}
