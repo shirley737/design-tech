@@ -26,7 +26,7 @@ function Newsletter() {
       <div className="news-title">✨ Activities</div>
       <div className="note"> Note: We currently pause the newletter and meetups due to organizer's availability conflict, but all activities will resume soon.</div>
       <div className="news-card">
-        <Activitycard vector={email} title="Newsletter" description={description1} action="Previous Newsletter" method={getNewsLetter} hasButton={true} />
+        <Activitycard vector={email} title="Newsletter" description={description1} action="Previous Newsletters" method={getNewsLetter} hasButton={true} />
         <Activitycard vector={chat} title="Meetups" description={description2} />
         <Activitycard vector={slack} title="Slack Workspace" description={description3} hasButton={true} action="Learn More" method={() => { window.open("https://docs.google.com/forms/d/e/1FAIpQLScppa_I-N4kMWg1AveJfHElKcGb9pDoL-lSqjEZFGqrhZM5VQ/viewform?usp=sf_link") }} />
       </div>
