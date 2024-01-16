@@ -41,7 +41,7 @@
     color: grey;
     font-family: "Noto Sans", sans-serif;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 14px;
   }
 
   a:hover {
@@ -63,6 +63,26 @@
 
       .community {
         margin-right: 0px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .join {
+    margin: 60px auto 30px auto;
+    padding: 0px 20px;
+
+    .join-context {
+      .community {
+        font-size: 18px;
+      }
+
+      span,
+      a {
+        max-width: fit-content;
+        font-size: 14px;
+        font-family: "Noto Sans", sans-serif;
       }
     }
   }

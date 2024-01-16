@@ -46,43 +46,41 @@
 }
 
 @media only screen and (max-width: 600px) {
+
   .intro {
-    display: flex;
-    flex-direction: column;
-    height: 800px;
+    margin: 60px auto 30px auto;
+    padding: 0px 20px;
 
-    .textbox1 {
-      margin: auto auto;
-      width: 80%;
-      padding-top: 20px;
-
-      .title1 {
-        font-size: 30px;
-        font-weight: 600;
-        padding: 20px 0px 20px 0px;
-      }
-
-      .answer1 {
-        font-size: 16px;
-        font-family: "Noto Sans", sans-serif;
-      }
+    .about-title {
+      font-size: 18px;
     }
 
-    .textbox2 {
-      margin: auto auto;
-      width: 80%;
-      padding-top: 0px;
-      padding-bottom: 20px;
+    .introContent {
+      display: flex;
+      flex-direction: column;
+      height: 720px;
 
-      .title2 {
-        font-size: 30px;
-        font-weight: 600;
-        padding: 20px 0px 20px 0px;
+      .textbox {
+        max-width: fit-content;
+        font-size: 14px;
+        font-family: "Noto Sans", sans-serif;
+
+        .answer {
+          padding-top: 20px;
+          line-height: 1.6;
+          color: $grey3;
+        }
+
+        a {
+          font-weight: 600;
+          color: #393a3d;
+        }
       }
 
-      .answer2 {
-        font-size: 16px;
-        font-family: "Noto Sans", sans-serif;
+      .graph {
+        align-self: center;
+        max-width: 360px;
+        padding-top: 0px;
       }
     }
   }

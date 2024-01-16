@@ -22,7 +22,6 @@
     .action {
       margin: auto;
     }
-
   }
 
   .member-align {
@@ -46,8 +45,32 @@
 
   a {
     font-family: "Noto Sans", sans-serif;
-    font-size: 16px;
     font-weight: 600;
     color: #393a3d;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .people {
+    margin: 60px auto 30px auto;
+    padding: 0px 20px;
+
+    .people-title,
+    .people-subtitle {
+      font-size: 18px;
+    }
+
+    .stack {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .member-align {
+      .people-text {
+        max-width: fit-content;
+        font-size: 14px;
+        font-family: "Noto Sans", sans-serif;
+      }
+    }
   }
 }

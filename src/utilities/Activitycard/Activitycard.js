@@ -3,7 +3,7 @@ import "./activity-card.scss";
 import { Button } from "@mui/material";
 
 
-const Activitycard = ({ vector, title, description, action, method }) => {
+const Activitycard = ({ vector, title, description, action, method, hasButton }) => {
 
     return (
         <div className="activity-card" >
@@ -11,7 +11,7 @@ const Activitycard = ({ vector, title, description, action, method }) => {
             <div className="title">{title}</div>
             <div className="description"> {description} </div>
 
-            <Button className="action" onClick={method}> {action} </Button>
+            {hasButton && <Button className="action" onClick={method}> {action} </Button>}
 
         </div>
     )

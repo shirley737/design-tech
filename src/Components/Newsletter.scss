@@ -24,8 +24,6 @@
     color: $grey1;
     margin-top: 28px;
     text-align: center;
-
-
   }
 
   .meetup {
@@ -34,5 +32,26 @@
     margin-left: 50px;
     margin-top: 150px;
     display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .newsletter {
+    margin: 60px auto 30px auto;
+    padding: 0px 20px;
+    font-family: "Noto Sans", sans-serif;
+
+    .news-title {
+      font-size: 18px;
+    }
+
+    .note {
+      font-size: 14px;
+    }
+
+    .news-card {
+      display: flex;
+      flex-direction: column;
+    }
   }
 }
