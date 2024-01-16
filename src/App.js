@@ -86,8 +86,8 @@ function Newspage() {
 function App() {
   return (
     <Router basename="/">
-      <Route exact path="/" component={Homepage} />;
-      <Route exact path="/news" component={Newspage} />;
+      <Route exact path="/" component={Homepage} />
+      <Route exact path="/news" component={Newspage} />
     </Router>
   );
 }
