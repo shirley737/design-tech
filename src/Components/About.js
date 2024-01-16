@@ -28,7 +28,7 @@ function About() {
             networking, career and social events, our goal is to enable people
             to make meaningful connections across various companies and to form
             a strong community for design and tech lovers. The Design Tech Club
-            will be one year old in March 2022!
+            is reaching 3 years old!
             <div className="answer">
               <span>Are you a design tech enthusiast?</span>{" "}
               <span className="linktext">
