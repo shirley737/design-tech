@@ -2,33 +2,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
 
 .join {
-  height: 200px;
   overflow: hidden;
-  padding: 0px 100px;
-  margin: auto;
   max-width: 1000px;
+  margin: 60px auto 60px auto;
 
   .join-context {
-    .text {
-      margin-top: 10px;
 
-      .community {
-        font-family: "Lora", serif;
-        font-size: 30px;
-        font-weight: 600;
-        margin-top: 30px;
-      }
 
-      .contact {
-        margin: 10px 0px 25px 0px;
-        font-size: 18px;
+    .community {
+      font-family: "Lora", serif;
+      font-size: 30px;
+      font-weight: 600;
+    }
 
-        .email,
-        .slack {
-          font-family: "Noto Sans", sans-serif;
-        }
+    .contact {
+      margin: 10px 0px 25px 0px;
+      font-size: 18px;
+
+      .email,
+      .slack {
+        font-family: "Noto Sans", sans-serif;
       }
     }
+
 
     .footer {
       font-size: 14px;

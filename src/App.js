@@ -34,13 +34,6 @@ function Homepage() {
             <a className="nav-righttext" href="#contact">
               Contact
             </a>
-            {/* <a
-              className="joinlink nav-righttext"
-              href="https://forms.gle/Vpjq9CLsCN3vJA2P8"
-              target="_blank"
-            >
-              Join us
-            </a> */}
           </div>
         </div>
       </div>

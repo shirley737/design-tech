@@ -1,17 +1,14 @@
 import React from "react";
 import "./People.scss";
-import { useHistory } from "react-router-dom";
 import Avatar from "@mui/material/Avatar";
 import Stack from "@mui/material/Stack";
 import shirley from "../images/shirley.jfif";
 import eric from "../images/eric.jfif";
 import Card from "@mui/material/Card";
-import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import company from "../images/company.png";
 
 function People() {
-  const history = useHistory();
   return (
     <div
       className="people"
@@ -20,7 +17,7 @@ function People() {
         e.stopPropagation();
       }}
     >
-      <div className="people-title">🧑‍💻 Technologists</div>
+      <div className="people-title">🧑‍💻 People</div>
       <div className="people-subtitle">Meet our Leaders</div>
       <div className="stack">
         <Stack direction="row" spacing={5}>

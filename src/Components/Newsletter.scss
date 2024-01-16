@@ -1,18 +1,14 @@
 @import "../utilities/styles.scss";
 
 .newsletter {
-  height: 840px;
-  background-color: 000;
   overflow: hidden;
-  padding: 0px 100px;
-  margin: auto;
   max-width: 1000px;
+  margin: 60px auto 60px auto;
 
   .news-title {
     font-family: "Lora", serif;
     font-size: 30px;
     font-weight: 600;
-    margin-top: 30px;
   }
 
   .news-split {
@@ -26,11 +22,11 @@
       line-height: 1.6;
       font-family: "Noto Sans", sans-serif;
 
-      .news-title {
+      .subtitle {
+        margin: 30px 0px;
         font-family: "Lora", serif;
         font-size: 22px;
         font-weight: 500;
-        margin-bottom: 20px;
         color: #393a3d;
       }
     }
