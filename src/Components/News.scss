@@ -31,3 +31,17 @@
 .section-item a {
   color: blue;
 }
+
+@media only screen and (max-width: 600px) {
+  .news {
+    padding: 0px 20px;
+    font-size: 14px;
+
+    .title,
+    .section-title,
+    .section-item {
+      margin-left: 0px;
+    }
+
+  }
+}

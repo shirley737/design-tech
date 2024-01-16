@@ -43,3 +43,10 @@
 .main-button:hover {
     background-color: #048aab;
 }
+
+@media only screen and (max-width: 600px) {
+    .main-button {
+        width: 84px;
+        font-size: 16px;
+    }
+}
